@@ -1,0 +1,6 @@
+{
+  "appId": "com.railjoy.app",
+  "appName": "Railjoy",
+  "webDir": "dist",
+  "android": { "backgroundColor": "#344340" }
+}
