@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Railjoy</string>
+    <string name="title_activity_main">Railjoy</string>
+    <string name="package_name">com.railjoy.app</string>
+    <string name="custom_url_scheme">com.railjoy.app</string>
+</resources>

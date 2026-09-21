@@ -56,3 +56,7 @@ All illustrations and fonts render locally. No analytics, external fonts, tracki
 Keep commits focused and never force-push `main`. To undo a bad release, revert the offending commit through a new reviewed change; Vercel then redeploys the corrected `main`. For immediate restoration, use Vercel's rollback to a known working deployment and subsequently reconcile the code in GitHub.
 
 Before release, verify discovery/filtering, save and unsave, persistence after reload, empty results, keyboard dialog close, and the layout on a narrow screen. Automated checks do not replace these interaction checks. Enable a GitHub rule requiring the `quality` check before merging when branch protection is configured; merely adding the workflow does not enforce branch protection or block Vercel deployments.
+
+## Android app
+
+The same interface is packaged as a Capacitor Android app. See [Android setup and APK downloads](docs/ANDROID.md) for installation, local development, and release limitations. The **Android APK** GitHub workflow produces a downloadable test APK for each branch.
